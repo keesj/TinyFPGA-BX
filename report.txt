@@ -1,0 +1,92 @@
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/sym-lib-table" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/sym-lib-table-2018-10-08-19-27-21".
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX.sch" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/TinyFPGA-BX-2018-10-08-19-27-21.sch".
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX.pro" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/TinyFPGA-BX-2018-10-08-19-27-21.pro".
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX-cache.lib" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/TinyFPGA-BX-cache-2018-10-08-19-27-21.lib".
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX-rescue.lib" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/TinyFPGA-BX-rescue-2018-10-08-19-27-21.lib".
+Info: Backing up file "/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX-rescue.dcm" to file "/home/why/projects/fpga/TinyFPGA-BX/board/rescue-backup/TinyFPGA-BX-rescue-2018-10-08-19-27-21.dcm".
+Info: Adding library "TinyFPGA-BX-rescue", file "${KIPRJMOD}/TinyFPGA-BX-rescue.lib" to project symbol library table.
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "iCE40-LP8K-CM81" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "+1V2" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "Conn_01x14" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "Conn_01x14" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "USB_OTG" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "SW_Push" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "MIC5365-1.2YC5-TR" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "MIC5504-3.3YM5-TR" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "DSC6001CI2A-016.0000T" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "AT25SF041-SSHD-B" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+1V2" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+5V" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "Ferrite_Bead_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+5V" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+1V2" mapped to symbol library "power".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "C_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+3.3V" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "+5V" mapped to symbol library "power".
+Symbol "+3.3V" mapped to symbol library "power".
+Symbol "C" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "TEST" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "TEST" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "+1V2" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "LED_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "LED_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R_Small" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "GND" mapped to symbol library "power".
+Symbol "+3V3" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "GND" mapped to symbol library "power".
+Symbol "TEST" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "Conn_02x03_Odd_Even" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "Conn_02x08_Odd_Even" mapped to symbol library "TinyFPGA-BX-rescue".
+Symbol "R" mapped to symbol library "TinyFPGA-BX-rescue".
+Info: Symbol library table mapping complete!
