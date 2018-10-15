@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX.sch</source>
-    <date>do 11 okt 2018 09:01:02 CEST</date>
+    <date>vr 12 okt 2018 17:14:17 CEST</date>
     <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -35,70 +35,49 @@
     </comp>
     <comp ref="J3">
       <value>USB_OTG</value>
-      <footprint>Connectors:USB_Micro-B</footprint>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="USB_OTG" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5918C75D</tstamp>
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
-      <footprint>tinyfpga:PTS_810_SMT_Switch</footprint>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="SW_Push" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5918CB81</tstamp>
     </comp>
-    <comp ref="U4">
-      <value>MIC5365-1.2YC5-TR</value>
-      <footprint>tinyfpga:SC-70-C5</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="MIC5365-1.2YC5-TR" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591A9EDF</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>MIC5504-3.3YM5-TR</value>
-      <footprint>tinyfpga:SC-70-C5</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="MIC5504-3.3YM5-TR" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591A9F5A</tstamp>
-    </comp>
     <comp ref="U3">
       <value>DSC6001CI2A-016.0000T</value>
-      <footprint>tinyfpga:CDFN3225-4LD-PL-1</footprint>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="DSC6001CI2A-016.0000T" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591A9FD7</tstamp>
     </comp>
-    <comp ref="U5">
-      <value>AT25SF081-SSHD-B</value>
-      <footprint>Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="AT25SF041-SSHD-B" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591BDF5F</tstamp>
-    </comp>
     <comp ref="C2">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BF1F2</tstamp>
     </comp>
     <comp ref="C3">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591BF26D</tstamp>
     </comp>
     <comp ref="C1">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C09B3</tstamp>
     </comp>
     <comp ref="C4">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C0A32</tstamp>
@@ -133,56 +112,56 @@
     </comp>
     <comp ref="C5">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E10BF</tstamp>
     </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E1ADB</tstamp>
     </comp>
     <comp ref="C9">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E9D9B</tstamp>
     </comp>
     <comp ref="C10">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E9E78</tstamp>
     </comp>
     <comp ref="C11">
       <value>100nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E9EF1</tstamp>
     </comp>
     <comp ref="C12">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591E9FF1</tstamp>
     </comp>
     <comp ref="C13">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591EA15E</tstamp>
     </comp>
     <comp ref="C14">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591EA1D8</tstamp>
@@ -203,7 +182,7 @@
     </comp>
     <comp ref="C17">
       <value>10uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>592061E2</tstamp>
@@ -215,30 +194,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5922D14B</tstamp>
     </comp>
-    <comp ref="TP1">
-      <value>TEST</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="TEST" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5922E3E0</tstamp>
-    </comp>
-    <comp ref="TP2">
-      <value>TEST</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="TEST" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5923D3AB</tstamp>
-    </comp>
     <comp ref="D1">
       <value>LED_Small</value>
-      <footprint>LEDs:LED_0603</footprint>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="LED_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3A94CB</tstamp>
     </comp>
     <comp ref="D2">
       <value>LED_Small</value>
-      <footprint>LEDs:LED_0603</footprint>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="LED_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3A9582</tstamp>
@@ -256,13 +221,6 @@
       <libsource lib="TinyFPGA-BX-rescue" part="R_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3A96BD</tstamp>
-    </comp>
-    <comp ref="TP3">
-      <value>TEST</value>
-      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
-      <libsource lib="TinyFPGA-BX-rescue" part="TEST" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A3B49B1</tstamp>
     </comp>
     <comp ref="J5">
       <value>Conn_02x03_Odd_Even</value>
@@ -295,10 +253,34 @@
     </comp>
     <comp ref="C6">
       <value>10nF</value>
-      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <libsource lib="TinyFPGA-BX-rescue" part="C_Small" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BC1217A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5504-3.3YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC2BABA</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MIC5504-1.2YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MIC5504-1.2YM5" description="300mA Low-dropout Voltage Regulator, Vout 1.2V, Vin up to 5.5V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC2BCE2</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AT25xxx-MA</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="AT25xxx-MA" description="Microchip SPI Serial EEPROM, DFN8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F622</tstamp>
     </comp>
   </components>
   <libparts>
@@ -365,20 +347,58 @@
         <pin num="49" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="TinyFPGA-BX-rescue" part="AT25SF041-SSHD-B">
+    <libpart lib="Memory_EEPROM" part="25LCxxx-MC">
+      <aliases>
+        <alias>BR25xxx-NUX</alias>
+        <alias>AT25xxx-MA</alias>
+        <alias>CAT250xxx-HU4</alias>
+      </aliases>
+      <description>SPI Serial EEPROM, DFN8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf</docs>
+      <footprints>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">AT25SF041-SSHD-B</field>
+        <field name="Value">25LCxxx-MC</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</field>
       </fields>
       <pins>
-        <pin num="1" name="!CS" type="BiDi"/>
-        <pin num="2" name="SO" type="BiDi"/>
-        <pin num="3" name="!WP" type="BiDi"/>
-        <pin num="4" name="GND" type="BiDi"/>
-        <pin num="5" name="SI" type="BiDi"/>
-        <pin num="6" name="SCK" type="BiDi"/>
-        <pin num="7" name="!HOLD" type="BiDi"/>
-        <pin num="8" name="VCC" type="BiDi"/>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="MISO" type="3state"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="MOSI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MIC5504-3.3YM5">
+      <aliases>
+        <alias>MIC5504-2.8YM5</alias>
+        <alias>MIC5504-2.5YM5</alias>
+        <alias>MIC5504-1.8YM5</alias>
+        <alias>MIC5504-1.2YM5</alias>
+        <alias>MIC5501-3.0YM5</alias>
+      </aliases>
+      <description>300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5504-3.3YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="TinyFPGA-BX-rescue" part="C">
@@ -500,32 +520,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="TinyFPGA-BX-rescue" part="MIC5365-1.2YC5-TR">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5365-1.2YC5-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VIN" type="BiDi"/>
-        <pin num="2" name="GND" type="BiDi"/>
-        <pin num="3" name="EN" type="BiDi"/>
-        <pin num="4" name="NC" type="BiDi"/>
-        <pin num="5" name="VOUT" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="TinyFPGA-BX-rescue" part="MIC5504-3.3YM5-TR">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5504-3.3YM5-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VIN" type="BiDi"/>
-        <pin num="2" name="GND" type="BiDi"/>
-        <pin num="3" name="EN" type="BiDi"/>
-        <pin num="4" name="NC" type="BiDi"/>
-        <pin num="5" name="VOUT" type="BiDi"/>
-      </pins>
-    </libpart>
     <libpart lib="TinyFPGA-BX-rescue" part="R">
       <footprints>
         <fp>R_*</fp>
@@ -563,15 +557,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="TinyFPGA-BX-rescue" part="TEST">
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TEST</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="TinyFPGA-BX-rescue" part="USB_OTG">
       <footprints>
         <fp>USB*</fp>
@@ -594,346 +579,290 @@
     <library logical="FPGA_Lattice">
       <uri>/usr/share/kicad/library/FPGA_Lattice.lib</uri>
     </library>
+    <library logical="Memory_EEPROM">
+      <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
     <library logical="TinyFPGA-BX-rescue">
       <uri>/home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="2" name="USB_N">
-      <node ref="J5" pin="6"/>
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="47"/>
-    </net>
-    <net code="3" name="USB_P">
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="46"/>
-      <node ref="J5" pin="5"/>
-    </net>
-    <net code="4" name="USB_PU">
-      <node ref="J5" pin="4"/>
-      <node ref="U1" pin="45"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="5" name="56">
-      <node ref="J5" pin="2"/>
-    </net>
-    <net code="6" name="CLK">
-      <node ref="J5" pin="1"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="7" name="LED">
-      <node ref="J5" pin="3"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="8" name="SPI_VCCIO1">
-      <node ref="U1" pin="22"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U3" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U1" pin="33"/>
-      <node ref="U5" pin="8"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="24"/>
-      <node ref="U1" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="J2" pin="3"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="9" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="10" name="GND">
-      <node ref="C11" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="J3" pin="6"/>
-      <node ref="J3" pin="5"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U1" pin="49"/>
+    <net code="1" name="GND">
       <node ref="R9" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U4" pin="2"/>
       <node ref="C10" pin="2"/>
       <node ref="C9" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="49"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J2" pin="2"/>
+      <node ref="SW1" pin="1"/>
     </net>
-    <net code="11" name="109">
-      <node ref="R10" pin="2"/>
-      <node ref="U5" pin="7"/>
+    <net code="2" name="USB_PU">
+      <node ref="U1" pin="47"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="12" name="Net-(J2-Pad10)">
-      <node ref="J2" pin="10"/>
-    </net>
-    <net code="13" name="Net-(J1-Pad11)">
-      <node ref="J1" pin="11"/>
-    </net>
-    <net code="14" name="Net-(J1-Pad10)">
-      <node ref="J1" pin="10"/>
-    </net>
-    <net code="15" name="Net-(J1-Pad9)">
-      <node ref="J1" pin="9"/>
-    </net>
-    <net code="16" name="Net-(J1-Pad8)">
-      <node ref="J1" pin="8"/>
-    </net>
-    <net code="17" name="Net-(J1-Pad7)">
-      <node ref="J1" pin="7"/>
-    </net>
-    <net code="18" name="Net-(J1-Pad6)">
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="19" name="Net-(J1-Pad5)">
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="20" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="21" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="22" name="Net-(J1-Pad2)">
+    <net code="3" name="HL_02">
+      <node ref="U1" pin="9"/>
       <node ref="J1" pin="2"/>
     </net>
-    <net code="23" name="Net-(J2-Pad14)">
-      <node ref="J2" pin="14"/>
+    <net code="4" name="CRESET_B">
+      <node ref="U1" pin="8"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="24" name="Net-(J2-Pad13)">
-      <node ref="J2" pin="13"/>
+    <net code="5" name="CDONE">
+      <node ref="U1" pin="7"/>
     </net>
-    <net code="25" name="Net-(J2-Pad12)">
-      <node ref="J2" pin="12"/>
+    <net code="6" name="HL_10">
+      <node ref="J1" pin="10"/>
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="26" name="Net-(J2-Pad11)">
-      <node ref="J2" pin="11"/>
+    <net code="7" name="HL_09">
+      <node ref="J1" pin="9"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="27" name="Net-(J1-Pad12)">
-      <node ref="J1" pin="12"/>
+    <net code="8" name="HL_08">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="28" name="Net-(J2-Pad9)">
-      <node ref="J2" pin="9"/>
+    <net code="9" name="HL_07">
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="29" name="Net-(J2-Pad8)">
-      <node ref="J2" pin="8"/>
-    </net>
-    <net code="30" name="Net-(J2-Pad7)">
-      <node ref="J2" pin="7"/>
-    </net>
-    <net code="31" name="Net-(J2-Pad6)">
-      <node ref="J2" pin="6"/>
-    </net>
-    <net code="32" name="Net-(J2-Pad5)">
-      <node ref="J2" pin="5"/>
-    </net>
-    <net code="33" name="Net-(J2-Pad4)">
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="34" name="Net-(J1-Pad14)">
-      <node ref="J1" pin="14"/>
-    </net>
-    <net code="35" name="82">
-      <node ref="R7" pin="2"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="U5" pin="3"/>
-    </net>
-    <net code="36" name="Net-(J1-Pad13)">
-      <node ref="J1" pin="13"/>
-    </net>
-    <net code="37" name="VCCPLL">
+    <net code="10" name="VCCPLL">
       <node ref="C14" pin="1"/>
       <node ref="U1" pin="29"/>
       <node ref="R4" pin="1"/>
       <node ref="C6" pin="1"/>
     </net>
-    <net code="38" name="Net-(U1-Pad48)">
-      <node ref="U1" pin="48"/>
+    <net code="11" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="39" name="Net-(U1-Pad44)">
-      <node ref="U1" pin="44"/>
+    <net code="12" name="SDI">
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J5" pin="6"/>
     </net>
-    <net code="40" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
+    <net code="13" name="SS">
+      <node ref="U1" pin="16"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J5" pin="5"/>
     </net>
-    <net code="41" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="42" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="43" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="44" name="CRESET_B">
-      <node ref="R6" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="TP2" pin="1"/>
-    </net>
-    <net code="45" name="Net-(U1-Pad26)">
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="46" name="Net-(U1-Pad25)">
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="47" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="48" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="49" name="Net-(C8-Pad2)">
-      <node ref="C8" pin="2"/>
-      <node ref="U5" pin="4"/>
-    </net>
-    <net code="50" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="51" name="CDONE">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="52" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="53" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="54" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="55" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="56" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="57" name="SDO">
+    <net code="14" name="SDO">
+      <node ref="J5" pin="4"/>
       <node ref="U1" pin="17"/>
       <node ref="U5" pin="5"/>
     </net>
-    <net code="58" name="SS">
-      <node ref="R5" pin="2"/>
-      <node ref="U1" pin="16"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="59" name="SCK">
+    <net code="15" name="SCK">
       <node ref="U5" pin="6"/>
+      <node ref="J5" pin="2"/>
       <node ref="U1" pin="15"/>
     </net>
-    <net code="60" name="SDI">
-      <node ref="U1" pin="14"/>
-      <node ref="U5" pin="2"/>
+    <net code="16" name="LED">
+      <node ref="U1" pin="41"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="61" name="Net-(U1-Pad13)">
+    <net code="17" name="SPI_VCCIO1">
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="18" name="HL_06">
+      <node ref="J1" pin="6"/>
       <node ref="U1" pin="13"/>
     </net>
-    <net code="62" name="Net-(U1-Pad12)">
+    <net code="19" name="HL_05">
+      <node ref="J1" pin="5"/>
       <node ref="U1" pin="12"/>
     </net>
-    <net code="63" name="Net-(U1-Pad11)">
+    <net code="20" name="HL_04">
+      <node ref="J1" pin="4"/>
       <node ref="U1" pin="11"/>
     </net>
-    <net code="64" name="Net-(U1-Pad43)">
-      <node ref="U1" pin="43"/>
+    <net code="21" name="HL_03">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="65" name="Net-(U1-Pad42)">
-      <node ref="U1" pin="42"/>
-    </net>
-    <net code="66" name="Net-(U1-Pad41)">
-      <node ref="U1" pin="41"/>
-    </net>
-    <net code="67" name="Net-(U1-Pad40)">
-      <node ref="U1" pin="40"/>
-    </net>
-    <net code="68" name="Net-(U1-Pad39)">
-      <node ref="U1" pin="39"/>
-    </net>
-    <net code="69" name="Net-(U1-Pad38)">
-      <node ref="U1" pin="38"/>
-    </net>
-    <net code="70" name="Net-(U1-Pad37)">
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="71" name="Net-(U1-Pad36)">
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="72" name="Net-(U1-Pad35)">
+    <net code="22" name="CLK">
+      <node ref="U3" pin="3"/>
       <node ref="U1" pin="35"/>
     </net>
-    <net code="73" name="Net-(U1-Pad34)">
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="74" name="Net-(U1-Pad32)">
+    <net code="23" name="Net-(U1-Pad32)">
       <node ref="U1" pin="32"/>
     </net>
-    <net code="75" name="Net-(U1-Pad31)">
+    <net code="24" name="Net-(U1-Pad31)">
       <node ref="U1" pin="31"/>
     </net>
-    <net code="76" name="Net-(U1-Pad28)">
+    <net code="25" name="Net-(U1-Pad28)">
       <node ref="U1" pin="28"/>
     </net>
-    <net code="77" name="VCC_CORE">
-      <node ref="C3" pin="1"/>
+    <net code="26" name="HL_11">
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="27" name="SPI_WP_N">
+      <node ref="U1" pin="39"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="28" name="SPI_HOLD_N">
+      <node ref="U1" pin="40"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="29" name="+5V">
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="30" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="32" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="34" name="USB_P">
+      <node ref="U1" pin="48"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="35" name="USB_N">
+      <node ref="U1" pin="45"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="36" name="HL_12">
+      <node ref="U1" pin="25"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="37" name="HL_13">
+      <node ref="U1" pin="26"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="38" name="HL_14">
+      <node ref="J1" pin="14"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="39" name="HR_10">
+      <node ref="U1" pin="42"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="40" name="HR_11">
+      <node ref="U1" pin="38"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="41" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="42" name="HR_09">
+      <node ref="J2" pin="9"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="43" name="HR_08">
+      <node ref="U1" pin="44"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="44" name="HR_07">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="46"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="45" name="HR_06">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="46" name="HR_05">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="47" name="HR_04">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="48" name="HR_14">
+      <node ref="U1" pin="34"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="49" name="HR_13">
+      <node ref="U1" pin="36"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="50" name="HR_12">
+      <node ref="J2" pin="12"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="51" name="Net-(D1-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D2-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="53" name="VCC_CORE">
       <node ref="U1" pin="30"/>
       <node ref="U1" pin="5"/>
       <node ref="R4" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="TP3" pin="1"/>
+      <node ref="C3" pin="1"/>
       <node ref="U4" pin="5"/>
-    </net>
-    <net code="78" name="+5V">
-      <node ref="J2" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="L1" pin="1"/>
-    </net>
-    <net code="79" name="Net-(U4-Pad4)">
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="80" name="Net-(J3-Pad4)">
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="81" name="Net-(J3-Pad3)">
-      <node ref="R1" pin="1"/>
-      <node ref="J3" pin="3"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="82" name="Net-(J3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="83" name="Net-(J3-Pad1)">
-      <node ref="J3" pin="1"/>
-      <node ref="L1" pin="2"/>
+      <node ref="C13" pin="1"/>
     </net>
   </nets>
 </export>

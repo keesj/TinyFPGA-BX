@@ -689,20 +689,6 @@ F 3 "" H 6550 3550 50  0001 C CNN
 	1    6550 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L TinyFPGA-BX-rescue:TEST TP2
-U 1 1 5923D3AB
-P 6850 6950
-F 0 "TP2" H 6850 7250 50  0000 C BNN
-F 1 "TEST" H 6850 7200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6850 6950 50  0001 C CNN
-F 3 "" H 6850 6950 50  0001 C CNN
-	1    6850 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 6950 6850 7350
-Connection ~ 6850 7350
 Text Notes 1500 6200 0    60   ~ 0
 FPGA core and IO power connections and decoupling capacitors
 Text Notes 2050 850  0    60   ~ 0
@@ -763,7 +749,7 @@ L TinyFPGA-BX-rescue:LED_Small D1
 U 1 1 5A3A94CB
 P 4850 2600
 F 0 "D1" H 4800 2725 50  0000 L CNN
-F 1 "LED_Small" H 4675 2500 50  0000 L CNN
+F 1 "PWR" H 4675 2500 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 4850 2600 50  0001 C CNN
 F 3 "" V 4850 2600 50  0001 C CNN
 	1    4850 2600
@@ -774,7 +760,7 @@ L TinyFPGA-BX-rescue:LED_Small D2
 U 1 1 5A3A9582
 P 5250 2600
 F 0 "D2" H 5200 2725 50  0000 L CNN
-F 1 "LED_Small" H 5075 2500 50  0000 L CNN
+F 1 "USR" H 5075 2500 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 5250 2600 50  0001 C CNN
 F 3 "" V 5250 2600 50  0001 C CNN
 	1    5250 2600
@@ -844,17 +830,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 2250 5450 2250
 $Comp
-L TinyFPGA-BX-rescue:TEST TP3
-U 1 1 5A3B49B1
-P 4600 4400
-F 0 "TP3" H 4600 4700 50  0000 C BNN
-F 1 "TEST" H 4600 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 4400 50  0001 C CNN
-F 3 "" H 4600 4400 50  0001 C CNN
-	1    4600 4400
-	0    1    1    0   
-$EndComp
-$Comp
 L TinyFPGA-BX-rescue:Conn_02x03_Odd_Even J5
 U 1 1 5A3BFD22
 P 11150 850
@@ -886,8 +861,6 @@ Wire Wire Line
 	3500 5150 3500 5250
 Wire Wire Line
 	3500 5150 4200 5150
-Wire Wire Line
-	4200 4400 4600 4400
 Wire Wire Line
 	1600 5150 2300 5150
 Wire Wire Line
@@ -921,13 +894,9 @@ Wire Wire Line
 Wire Wire Line
 	2300 4400 2550 4400
 Wire Wire Line
-	6450 7350 6850 7350
-Wire Wire Line
 	2700 1300 2700 1250
 Wire Wire Line
 	2100 2600 2200 2600
-Wire Wire Line
-	6850 7350 7100 7350
 Wire Wire Line
 	2300 5150 2800 5150
 Wire Wire Line
@@ -1325,4 +1294,6 @@ $EndComp
 Connection ~ 6700 5000
 Wire Wire Line
 	6700 5000 7350 5000
+Wire Wire Line
+	6450 7350 7100 7350
 $EndSCHEMATC
