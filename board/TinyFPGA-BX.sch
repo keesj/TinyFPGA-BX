@@ -55,9 +55,9 @@ Text GLabel 11800 6500 0    60   Input ~ 0
 CRESET_B
 Text GLabel 11800 7800 0    60   Input ~ 0
 SDI
-Text GLabel 13950 5300 0    60   Input ~ 0
-USB_P
 Text GLabel 13950 5400 0    60   Input ~ 0
+USB_P
+Text GLabel 13950 5300 0    60   Input ~ 0
 USB_N
 Text GLabel 11800 8100 0    60   Input ~ 0
 SS
@@ -358,8 +358,6 @@ Wire Wire Line
 	3500 2100 3750 2100
 Wire Wire Line
 	3150 1450 3150 1250
-Text GLabel 6250 4200 0    60   Input ~ 0
-SS
 Text GLabel 8000 4200 2    60   Input ~ 0
 SDI
 Text GLabel 8000 4100 2    60   Input ~ 0
@@ -517,12 +515,12 @@ Connection ~ 2600 7650
 $Comp
 L TinyFPGA-BX-rescue:R R5
 U 1 1 591EBB96
-P 6350 3550
-F 0 "R5" V 6430 3550 50  0000 C CNN
-F 1 "10k" V 6350 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" V 6280 3550 50  0001 C CNN
-F 3 "" H 6350 3550 50  0001 C CNN
-	1    6350 3550
+P 6300 3550
+F 0 "R5" V 6380 3550 50  0000 C CNN
+F 1 "10k" V 6300 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 6230 3550 50  0001 C CNN
+F 3 "" H 6300 3550 50  0001 C CNN
+	1    6300 3550
 	1    0    0    -1  
 $EndComp
 Connection ~ 2300 4400
@@ -834,16 +832,12 @@ L TinyFPGA-BX-rescue:Conn_02x03_Odd_Even J5
 U 1 1 5A3BFD22
 P 11150 850
 F 0 "J5" H 11200 1050 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 11200 650 50  0000 C CNN
+F 1 "Prog" H 11200 650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 11150 850 50  0001 C CNN
 F 3 "" H 11150 850 50  0001 C CNN
 	1    11150 850 
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 4100 0    60   Input ~ 0
-SPI_HOLD_N
-Text GLabel 6250 4000 0    60   Input ~ 0
-SPI_WP_N
 $Comp
 L TinyFPGA-BX-rescue:R R10
 U 1 1 5ABB1098
@@ -1118,14 +1112,12 @@ Text GLabel 9900 6850 0    60   Input ~ 0
 HL_13
 Text GLabel 9900 6750 0    60   Input ~ 0
 HL_14
-Text GLabel 11800 6800 0    60   Input ~ 0
-HR_04
 Text GLabel 13950 5600 0    60   Input ~ 0
-HR_05
+HR_04
 Text GLabel 13950 5700 0    60   Input ~ 0
-HR_06
+HR_05
 Text GLabel 13950 5500 0    60   Input ~ 0
-HR_07
+HR_06
 Text GLabel 13950 5000 0    60   Input ~ 0
 HR_07
 Text GLabel 13950 5200 0    60   Input ~ 0
@@ -1148,24 +1140,14 @@ Text GLabel 9900 7250 0    60   Input ~ 0
 HR_14
 Text Notes 12800 5400 0    60   ~ 0
 Differential pair
-Text GLabel 9900 8150 0    60   Input ~ 0
+Text GLabel 11800 6800 0    60   Input ~ 0
 LED
-Text GLabel 9900 7950 0    60   Input ~ 0
-SPI_WP_N
-Text GLabel 9900 8050 0    60   Input ~ 0
-SPI_HOLD_N
 Text GLabel 11450 750  2    60   Input ~ 0
 SCK
 Text GLabel 11450 850  2    60   Input ~ 0
 SDO
 Text GLabel 11450 950  2    60   Input ~ 0
 SDI
-Text GLabel 10950 950  0    60   Input ~ 0
-SS
-Text GLabel 10950 850  0    60   Input ~ 0
-SPI_WP_N
-Text GLabel 10950 750  0    60   Input ~ 0
-SPI_HOLD_N
 $Comp
 L Regulator_Linear:MIC5504-3.3YM5 U2
 U 1 1 5BC2BABA
@@ -1255,29 +1237,11 @@ Connection ~ 6550 3400
 Wire Wire Line
 	6550 3400 6750 3400
 Wire Wire Line
-	6250 4200 6350 4200
-Connection ~ 6350 3400
-Wire Wire Line
-	6350 3400 6550 3400
-Wire Wire Line
-	6350 3700 6350 4200
-Wire Wire Line
-	5950 3400 6350 3400
-Connection ~ 6350 4200
-Wire Wire Line
-	6350 4200 6950 4200
-Wire Wire Line
-	6250 4000 6750 4000
-Wire Wire Line
-	6250 4100 6550 4100
-Wire Wire Line
 	6550 3700 6550 4100
-Connection ~ 6550 4100
 Wire Wire Line
 	6550 4100 6950 4100
 Wire Wire Line
 	6750 3700 6750 4000
-Connection ~ 6750 4000
 Wire Wire Line
 	6750 4000 6950 4000
 $Comp
@@ -1293,7 +1257,47 @@ F 3 "" H 6700 5000 50  0001 C CNN
 $EndComp
 Connection ~ 6700 5000
 Wire Wire Line
-	6700 5000 7350 5000
-Wire Wire Line
 	6450 7350 7100 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5BC73282
+P 10950 750
+F 0 "#PWR?" H 10950 500 50  0001 C CNN
+F 1 "GND" H 10955 577 50  0000 C CNN
+F 2 "" H 10950 750 50  0001 C CNN
+F 3 "" H 10950 750 50  0001 C CNN
+	1    10950 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 3400 6300 3400
+Wire Wire Line
+	6700 5000 7350 5000
+Connection ~ 6300 3400
+Wire Wire Line
+	6300 3400 6550 3400
+Wire Wire Line
+	6950 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 3700
+Text GLabel 6200 4200 0    60   Input ~ 0
+SS
+Wire Wire Line
+	6200 4200 6300 4200
+Connection ~ 6300 4200
+Text GLabel 10950 950  0    60   Input ~ 0
+SS
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BCA5653
+P 10700 850
+F 0 "#PWR?" H 10700 700 50  0001 C CNN
+F 1 "+3.3V" H 10700 990 50  0000 C CNN
+F 2 "" H 10700 850 50  0001 C CNN
+F 3 "" H 10700 850 50  0001 C CNN
+	1    10700 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 850  10950 850 
 $EndSCHEMATC

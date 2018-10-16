@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# FPGA_Lattice:ICE40UP5K-SG48ITR
+# FPGA_Lattice_ICE40UP5K-SG48ITR
 #
-DEF FPGA_Lattice:ICE40UP5K-SG48ITR U 0 20 Y Y 4 L N
+DEF FPGA_Lattice_ICE40UP5K-SG48ITR U 0 20 Y Y 4 L N
 F0 "U" -350 -1150 50 H V C CNN
-F1 "FPGA_Lattice:ICE40UP5K-SG48ITR" 0 -1250 50 H V C CNN
+F1 "FPGA_Lattice_ICE40UP5K-SG48ITR" 0 -1250 50 H V C CNN
 F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" 0 -1350 50 H I C CNN
 F3 "" -400 1000 50 H I C CNN
 $FPLIST
@@ -68,11 +68,11 @@ X VCC 5 0 400 100 D 50 50 4 1 W
 ENDDRAW
 ENDDEF
 #
-# Memory_EEPROM:AT25xxx-MA
+# Memory_EEPROM_AT25xxx-MA
 #
-DEF Memory_EEPROM:AT25xxx-MA U 0 20 Y Y 1 F N
+DEF Memory_EEPROM_AT25xxx-MA U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "Memory_EEPROM:AT25xxx-MA" 100 -250 50 H V L CNN
+F1 "Memory_EEPROM_AT25xxx-MA" 100 -250 50 H V L CNN
 F2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS BR25xxx-NUX AT25xxx-MA CAT250xxx-HU4
@@ -93,11 +93,11 @@ X GND 9 0 -300 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear:MIC5504-1.2YM5
+# Regulator_Linear_MIC5504-1.2YM5
 #
-DEF Regulator_Linear:MIC5504-1.2YM5 U 0 20 Y Y 1 F N
+DEF Regulator_Linear_MIC5504-1.2YM5 U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "Regulator_Linear:MIC5504-1.2YM5" -300 250 50 H V L CNN
+F1 "Regulator_Linear_MIC5504-1.2YM5" -300 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 -400 50 H I C CNN
 F3 "" -250 250 50 H I C CNN
 ALIAS MIC5504-2.8YM5 MIC5504-2.5YM5 MIC5504-1.8YM5 MIC5504-1.2YM5 MIC5501-3.0YM5
@@ -114,11 +114,11 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear:MIC5504-3.3YM5
+# Regulator_Linear_MIC5504-3.3YM5
 #
-DEF Regulator_Linear:MIC5504-3.3YM5 U 0 20 Y Y 1 F N
+DEF Regulator_Linear_MIC5504-3.3YM5 U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "Regulator_Linear:MIC5504-3.3YM5" -300 250 50 H V L CNN
+F1 "Regulator_Linear_MIC5504-3.3YM5" -300 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 -400 50 H I C CNN
 F3 "" -250 250 50 H I C CNN
 $FPLIST
@@ -134,11 +134,11 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:C
+# TinyFPGA-BX-rescue_C
 #
-DEF TinyFPGA-BX-rescue:C C 0 10 N Y 1 F N
+DEF TinyFPGA-BX-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:C" 25 -100 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -152,11 +152,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:C_Small
+# TinyFPGA-BX-rescue_C_Small
 #
-DEF TinyFPGA-BX-rescue:C_Small C 0 10 N N 1 F N
+DEF TinyFPGA-BX-rescue_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:C_Small" 10 -80 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -170,11 +170,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:Conn_01x14
+# TinyFPGA-BX-rescue_Conn_01x14
 #
-DEF TinyFPGA-BX-rescue:Conn_01x14 J 0 40 Y N 1 F N
+DEF TinyFPGA-BX-rescue_Conn_01x14 J 0 40 Y N 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "TinyFPGA-BX-rescue:Conn_01x14" 0 -800 50 H V C CNN
+F1 "TinyFPGA-BX-rescue_Conn_01x14" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -218,11 +218,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:Conn_02x03_Odd_Even
+# TinyFPGA-BX-rescue_Conn_02x03_Odd_Even
 #
-DEF TinyFPGA-BX-rescue:Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF TinyFPGA-BX-rescue_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "TinyFPGA-BX-rescue:Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "TinyFPGA-BX-rescue_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -250,11 +250,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:DSC6001CI2A-016.0000T
+# TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T
 #
-DEF TinyFPGA-BX-rescue:DSC6001CI2A-016.0000T U 0 40 Y Y 1 L N
+DEF TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T U 0 40 Y Y 1 L N
 F0 "U" 150 250 60 H V R CNN
-F1 "TinyFPGA-BX-rescue:DSC6001CI2A-016.0000T" 150 150 60 H V R CNN
+F1 "TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T" 150 150 60 H V R CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -266,11 +266,11 @@ X VDD 4 600 600 200 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:Ferrite_Bead_Small
+# TinyFPGA-BX-rescue_Ferrite_Bead_Small
 #
-DEF TinyFPGA-BX-rescue:Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF TinyFPGA-BX-rescue_Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -287,11 +287,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:LED_Small
+# TinyFPGA-BX-rescue_LED_Small
 #
-DEF TinyFPGA-BX-rescue:LED_Small D 0 10 N N 1 F N
+DEF TinyFPGA-BX-rescue_LED_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:LED_Small" -175 -100 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_LED_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -309,11 +309,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:R
+# TinyFPGA-BX-rescue_R
 #
-DEF TinyFPGA-BX-rescue:R R 0 0 N Y 1 F N
+DEF TinyFPGA-BX-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TinyFPGA-BX-rescue:R" 0 0 50 V V C CNN
+F1 "TinyFPGA-BX-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -327,11 +327,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:R_Small
+# TinyFPGA-BX-rescue_R_Small
 #
-DEF TinyFPGA-BX-rescue:R_Small R 0 10 N N 1 F N
+DEF TinyFPGA-BX-rescue_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:R_Small" 30 -40 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -344,11 +344,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:SW_Push
+# TinyFPGA-BX-rescue_SW_Push
 #
-DEF TinyFPGA-BX-rescue:SW_Push SW 0 40 N N 1 F N
+DEF TinyFPGA-BX-rescue_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:SW_Push" 0 -60 50 H V C CNN
+F1 "TinyFPGA-BX-rescue_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -361,11 +361,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue:USB_OTG
+# TinyFPGA-BX-rescue_USB_OTG
 #
-DEF TinyFPGA-BX-rescue:USB_OTG J 0 40 Y Y 1 F N
+DEF TinyFPGA-BX-rescue_USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "TinyFPGA-BX-rescue:USB_OTG" -200 350 50 H V L CNN
+F1 "TinyFPGA-BX-rescue_USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -396,11 +396,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+1V2
+# power_+1V2
 #
-DEF power:+1V2 #PWR 0 0 Y Y 1 F P
+DEF power_+1V2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+1V2" 0 140 50 H V C CNN
+F1 "power_+1V2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -411,11 +411,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# power_+3.3V
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -427,11 +427,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -442,11 +442,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -457,11 +457,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
