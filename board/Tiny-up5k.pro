@@ -1,4 +1,4 @@
-update=di 16 okt 2018 23:06:19 CEST
+update=wo 17 okt 2018 23:33:37 CEST
 version=1
 last_client=kicad
 [general]
@@ -8,25 +8,6 @@ BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=TinyFPGA-BX.net
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=0.09999999999999999
-PadSizeV=0.09999999999999999
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.075
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
@@ -40,3 +21,22 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=Tiny-up5k.net
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=0.25
+PadSizeV=0.25
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.05
+SolderMaskMinWidth=0.25
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15

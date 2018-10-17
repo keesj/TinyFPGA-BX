@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name TinyFPGA-BX-rescue)(type Legacy)(uri ${KIPRJMOD}/TinyFPGA-BX-rescue.lib)(options "")(descr ""))
+  (lib (name Tiny-up5k-rescue)(type Legacy)(uri ${KIPRJMOD}/Tiny-up5k-rescue.lib)(options "")(descr ""))
 )

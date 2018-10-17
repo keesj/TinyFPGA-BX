@@ -134,11 +134,11 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_C
+# Tiny-up5k-rescue_C-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_C C 0 10 N Y 1 F N
+DEF Tiny-up5k-rescue_C-TinyFPGA-BX-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_C" 25 -100 50 H V L CNN
+F1 "Tiny-up5k-rescue_C-TinyFPGA-BX-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -152,11 +152,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_C_Small
+# Tiny-up5k-rescue_C_Small-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_C_Small C 0 10 N N 1 F N
+DEF Tiny-up5k-rescue_C_Small-TinyFPGA-BX-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_C_Small" 10 -80 50 H V L CNN
+F1 "Tiny-up5k-rescue_C_Small-TinyFPGA-BX-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -170,11 +170,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_Conn_01x14
+# Tiny-up5k-rescue_Conn_01x14-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_Conn_01x14 J 0 40 Y N 1 F N
+DEF Tiny-up5k-rescue_Conn_01x14-TinyFPGA-BX-rescue J 0 40 Y N 1 F N
 F0 "J" 0 700 50 H V C CNN
-F1 "TinyFPGA-BX-rescue_Conn_01x14" 0 -800 50 H V C CNN
+F1 "Tiny-up5k-rescue_Conn_01x14-TinyFPGA-BX-rescue" 0 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -218,11 +218,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_Conn_02x03_Odd_Even
+# Tiny-up5k-rescue_Conn_02x03_Odd_Even-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF Tiny-up5k-rescue_Conn_02x03_Odd_Even-TinyFPGA-BX-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "TinyFPGA-BX-rescue_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "Tiny-up5k-rescue_Conn_02x03_Odd_Even-TinyFPGA-BX-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -250,11 +250,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue
+# Tiny-up5k-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue U 0 40 Y Y 1 L N
+DEF Tiny-up5k-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue U 0 40 Y Y 1 L N
 F0 "U" 150 250 60 H V R CNN
-F1 "TinyFPGA-BX-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue" 150 150 60 H V R CNN
+F1 "Tiny-up5k-rescue_DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue" 150 150 60 H V R CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -266,11 +266,11 @@ X VDD 4 600 600 200 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_Ferrite_Bead_Small
+# Tiny-up5k-rescue_Ferrite_Bead_Small-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF Tiny-up5k-rescue_Ferrite_Bead_Small-TinyFPGA-BX-rescue L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Tiny-up5k-rescue_Ferrite_Bead_Small-TinyFPGA-BX-rescue" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -287,11 +287,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_LED_Small
+# Tiny-up5k-rescue_LED_Small-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_LED_Small D 0 10 N N 1 F N
+DEF Tiny-up5k-rescue_LED_Small-TinyFPGA-BX-rescue D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_LED_Small" -175 -100 50 H V L CNN
+F1 "Tiny-up5k-rescue_LED_Small-TinyFPGA-BX-rescue" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -309,11 +309,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_R
+# Tiny-up5k-rescue_R-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_R R 0 0 N Y 1 F N
+DEF Tiny-up5k-rescue_R-TinyFPGA-BX-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "TinyFPGA-BX-rescue_R" 0 0 50 V V C CNN
+F1 "Tiny-up5k-rescue_R-TinyFPGA-BX-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -327,11 +327,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_R_Small
+# Tiny-up5k-rescue_R_Small-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_R_Small R 0 10 N N 1 F N
+DEF Tiny-up5k-rescue_R_Small-TinyFPGA-BX-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_R_Small" 30 -40 50 H V L CNN
+F1 "Tiny-up5k-rescue_R_Small-TinyFPGA-BX-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -344,11 +344,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_SW_Push
+# Tiny-up5k-rescue_SW_Push-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_SW_Push SW 0 40 N N 1 F N
+DEF Tiny-up5k-rescue_SW_Push-TinyFPGA-BX-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_SW_Push" 0 -60 50 H V C CNN
+F1 "Tiny-up5k-rescue_SW_Push-TinyFPGA-BX-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -361,11 +361,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# TinyFPGA-BX-rescue_USB_OTG
+# Tiny-up5k-rescue_USB_OTG-TinyFPGA-BX-rescue
 #
-DEF TinyFPGA-BX-rescue_USB_OTG J 0 40 Y Y 1 F N
+DEF Tiny-up5k-rescue_USB_OTG-TinyFPGA-BX-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "TinyFPGA-BX-rescue_USB_OTG" -200 350 50 H V L CNN
+F1 "Tiny-up5k-rescue_USB_OTG-TinyFPGA-BX-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

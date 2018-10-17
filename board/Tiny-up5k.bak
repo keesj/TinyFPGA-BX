@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Tiny-up5k-cache
+LIBS:TinyFPGA-BX-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -60,7 +60,7 @@ USB_N
 Text GLabel 11800 8100 0    60   Input ~ 0
 SS
 $Comp
-L Tiny-up5k-rescue:Conn_01x14-TinyFPGA-BX-rescue J1
+L TinyFPGA-BX-rescue:Conn_01x14 J1
 U 1 1 591076F8
 P 10550 4350
 F 0 "J1" H 10550 5100 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 10550 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:Conn_01x14-TinyFPGA-BX-rescue J2
+L TinyFPGA-BX-rescue:Conn_01x14 J2
 U 1 1 5910778F
 P 11600 4350
 F 0 "J2" H 11600 5100 50  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 11600 4350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:USB_OTG-TinyFPGA-BX-rescue U6
+L TinyFPGA-BX-rescue:USB_OTG U6
 U 1 1 5918C75D
 P 2200 2000
 F 0 "U6" H 2000 2450 50  0000 L CNN
@@ -94,7 +94,7 @@ F 4 "USB3076-30-A " H 2200 2000 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:SW_Push-TinyFPGA-BX-rescue SW1
+L TinyFPGA-BX-rescue:SW_Push SW1
 U 1 1 5918CB81
 P 6150 7350
 F 0 "SW1" H 6200 7450 50  0000 L CNN
@@ -106,7 +106,7 @@ F 4 "B3U-1000P" H 6150 7350 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue U3
+L TinyFPGA-BX-rescue:DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue U3
 U 1 1 591A9FD7
 P 6850 1900
 F 0 "U3" H 7050 2150 60  0000 L CNN
@@ -141,7 +141,7 @@ F 3 "" H 3500 5250 50  0001 C CNN
 $EndComp
 Connection ~ 3500 5150
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C2
+L TinyFPGA-BX-rescue:C C2
 U 1 1 591BF1F2
 P 2800 4800
 F 0 "C2" H 2825 4900 50  0000 L CNN
@@ -152,7 +152,7 @@ F 3 "" H 2800 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C3
+L TinyFPGA-BX-rescue:C C3
 U 1 1 591BF26D
 P 4200 4750
 F 0 "C3" H 4225 4850 50  0000 L CNN
@@ -197,7 +197,7 @@ Wire Wire Line
 	1600 5250 1600 5150
 Connection ~ 1600 5150
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C1
+L TinyFPGA-BX-rescue:C C1
 U 1 1 591C09B3
 P 900 4800
 F 0 "C1" H 925 4900 50  0000 L CNN
@@ -208,7 +208,7 @@ F 3 "" H 900 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C4
+L TinyFPGA-BX-rescue:C C4
 U 1 1 591C0A32
 P 2300 4800
 F 0 "C4" H 2325 4900 50  0000 L CNN
@@ -269,7 +269,7 @@ Wire Wire Line
 	2100 2400 2100 2600
 Connection ~ 2200 2600
 $Comp
-L Tiny-up5k-rescue:Ferrite_Bead_Small-TinyFPGA-BX-rescue L1
+L TinyFPGA-BX-rescue:Ferrite_Bead_Small L1
 U 1 1 591C2A75
 P 2700 1550
 F 0 "L1" H 2775 1600 50  0000 L CNN
@@ -306,7 +306,7 @@ F 3 "" H 7350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R2
+L TinyFPGA-BX-rescue:R R2
 U 1 1 591D2293
 P 3350 2000
 F 0 "R2" V 3250 2000 50  0000 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 3350 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R3
+L TinyFPGA-BX-rescue:R R3
 U 1 1 591D2392
 P 3350 2100
 F 0 "R3" V 3430 2100 50  0000 C CNN
@@ -328,7 +328,7 @@ F 3 "" H 3350 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R1
+L TinyFPGA-BX-rescue:R R1
 U 1 1 591D2427
 P 3150 1600
 F 0 "R1" V 3230 1600 50  0000 C CNN
@@ -362,7 +362,7 @@ SDO
 Text GLabel 8000 4000 2    60   Input ~ 0
 SCK
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C5
+L TinyFPGA-BX-rescue:C C5
 U 1 1 591E10BF
 P 6700 2250
 F 0 "C5" H 6725 2350 50  0000 L CNN
@@ -386,7 +386,7 @@ Wire Wire Line
 	6700 2550 6700 2400
 Connection ~ 7450 2550
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C8
+L TinyFPGA-BX-rescue:C C8
 U 1 1 591E1ADB
 P 5950 4650
 F 0 "C8" H 5975 4750 50  0000 L CNN
@@ -401,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 4800 5950 5000
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C9
+L TinyFPGA-BX-rescue:C_Small C9
 U 1 1 591E9D9B
 P 1450 7450
 F 0 "C9" H 1460 7520 50  0000 L CNN
@@ -412,7 +412,7 @@ F 3 "" H 1450 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C10
+L TinyFPGA-BX-rescue:C_Small C10
 U 1 1 591E9E78
 P 1750 7450
 F 0 "C10" H 1760 7520 50  0000 L CNN
@@ -423,7 +423,7 @@ F 3 "" H 1750 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C11
+L TinyFPGA-BX-rescue:C_Small C11
 U 1 1 591E9EF1
 P 2050 7450
 F 0 "C11" H 2060 7520 50  0000 L CNN
@@ -434,7 +434,7 @@ F 3 "" H 2050 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C12
+L TinyFPGA-BX-rescue:C_Small C12
 U 1 1 591E9FF1
 P 2350 7450
 F 0 "C12" H 2360 7520 50  0000 L CNN
@@ -445,7 +445,7 @@ F 3 "" H 2350 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C13
+L TinyFPGA-BX-rescue:C_Small C13
 U 1 1 591EA15E
 P 2600 7450
 F 0 "C13" H 2610 7520 50  0000 L CNN
@@ -456,7 +456,7 @@ F 3 "" H 2600 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C14
+L TinyFPGA-BX-rescue:C_Small C14
 U 1 1 591EA1D8
 P 3100 7400
 F 0 "C14" H 3110 7470 50  0000 L CNN
@@ -510,7 +510,7 @@ Wire Wire Line
 Connection ~ 2350 7650
 Connection ~ 2600 7650
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R5
+L TinyFPGA-BX-rescue:R R5
 U 1 1 591EBB96
 P 6300 3550
 F 0 "R5" V 6380 3550 50  0000 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 5750 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R6
+L TinyFPGA-BX-rescue:R R6
 U 1 1 592015DC
 P 6450 7100
 F 0 "R6" V 6530 7100 50  0000 C CNN
@@ -609,7 +609,7 @@ $EndComp
 Wire Wire Line
 	12150 3950 12150 3650
 $Comp
-L Tiny-up5k-rescue:C-TinyFPGA-BX-rescue C17
+L TinyFPGA-BX-rescue:C C17
 U 1 1 592061E2
 P 2200 1300
 F 0 "C17" H 2225 1400 50  0000 L CNN
@@ -674,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 4950 10100 4950
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R7
+L TinyFPGA-BX-rescue:R R7
 U 1 1 5922D14B
 P 6550 3550
 F 0 "R7" V 6630 3550 50  0000 C CNN
@@ -740,7 +740,7 @@ USB_PU
 Wire Wire Line
 	10100 5050 10350 5050
 $Comp
-L Tiny-up5k-rescue:LED_Small-TinyFPGA-BX-rescue D1
+L TinyFPGA-BX-rescue:LED_Small D1
 U 1 1 5A3A94CB
 P 4850 2600
 F 0 "D1" H 4800 2725 50  0000 L CNN
@@ -751,7 +751,7 @@ F 3 "" V 4850 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Tiny-up5k-rescue:LED_Small-TinyFPGA-BX-rescue D2
+L TinyFPGA-BX-rescue:LED_Small D2
 U 1 1 5A3A9582
 P 5250 2600
 F 0 "D2" H 5200 2725 50  0000 L CNN
@@ -762,7 +762,7 @@ F 3 "" V 5250 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R_Small-TinyFPGA-BX-rescue R8
+L TinyFPGA-BX-rescue:R_Small R8
 U 1 1 5A3A95FA
 P 4850 2950
 F 0 "R8" H 4880 2970 50  0000 L CNN
@@ -773,7 +773,7 @@ F 3 "" H 4850 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R_Small-TinyFPGA-BX-rescue R9
+L TinyFPGA-BX-rescue:R_Small R9
 U 1 1 5A3A96BD
 P 5250 2950
 F 0 "R9" H 5280 2970 50  0000 L CNN
@@ -825,7 +825,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2250 5450 2250
 $Comp
-L Tiny-up5k-rescue:Conn_02x03_Odd_Even-TinyFPGA-BX-rescue J5
+L TinyFPGA-BX-rescue:Conn_02x03_Odd_Even J5
 U 1 1 5A3BFD22
 P 11150 850
 F 0 "J5" H 11200 1050 50  0000 C CNN
@@ -836,7 +836,7 @@ F 3 "" H 11150 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R10
+L TinyFPGA-BX-rescue:R R10
 U 1 1 5ABB1098
 P 6750 3550
 F 0 "R10" V 6830 3550 50  0000 C CNN
@@ -953,7 +953,7 @@ F 3 "" H 14350 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tiny-up5k-rescue:R-TinyFPGA-BX-rescue R4
+L TinyFPGA-BX-rescue:R R4
 U 1 1 591E2BF1
 P 2850 7100
 F 0 "R4" V 2930 7100 50  0000 C CNN
@@ -995,7 +995,7 @@ Connection ~ 900  7000
 Wire Wire Line
 	2600 7650 3100 7650
 $Comp
-L Tiny-up5k-rescue:C_Small-TinyFPGA-BX-rescue C6
+L TinyFPGA-BX-rescue:C_Small C6
 U 1 1 5BC1217A
 P 3400 7400
 F 0 "C6" H 3410 7470 50  0000 L CNN
