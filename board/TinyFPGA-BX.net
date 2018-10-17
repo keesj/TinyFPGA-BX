@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/why/projects/fpga/TinyFPGA-BX/board/TinyFPGA-BX.sch)
-    (date "wo 17 okt 2018 23:11:33 CEST")
+    (date "wo 17 okt 2018 23:25:10 CEST")
     (tool "Eeschema 5.0.1-33cea8e~66~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

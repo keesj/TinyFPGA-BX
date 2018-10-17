@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 67)
+    (drawings 66)
     (tracks 595)
     (zones 0)
     (modules 37)
@@ -1745,9 +1745,6 @@
   )
   (gr_text IO0 (at 152.655 128.2791 270) (layer B.SilkS) (tstamp 5A9C6DC3)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
-  )
-  (gr_text 1.2v (at 152.654 111.1885 270) (layer B.SilkS) (tstamp 5A3B4975)
-    (effects (font (size 0.8 0.8) (thickness 0.2)) (justify left mirror))
   )
   (gr_text Vin (at 157.232 97.7991 270) (layer B.SilkS) (tstamp 5A399A14)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
