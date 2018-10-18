@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/why/projects/fpga/TinyFPGA-BX/board/Tiny-up5k.sch</source>
+    <date>do 18 okt 2018 21:22:02 CEST</date>
+    <tool>Eeschema 5.0.1-33cea8e~66~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tiny-up5k</title>
+        <company>Not Organized</company>
+        <rev>v1.1</rev>
+        <date/>
+        <source>Tiny-up5k.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>CONN_01X14</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm</footprint>
+      <libsource lib="Tiny-up5k-rescue" part="Conn_01x14-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591076F8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X14</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm</footprint>
+      <libsource lib="Tiny-up5k-rescue" part="Conn_01x14-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5910778F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>USB_OTG</value>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <fields>
+        <field name="manf#">USB3076-30-A</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="USB_OTG-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5918C75D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="manf#">B3U-1000P</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="SW_Push-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5918CB81</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DSC6001CI2A-016.0000T</value>
+      <footprint>Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="manf#">DSC6001CI2A-016.0000</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591A9FD7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A105KE15D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591BF1F2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A105KE15D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591BF26D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A105KE15D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C09B3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A105KE15D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C0A32</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Bead</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <fields>
+        <field name="manf#">BLM18PG300SN1D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="Ferrite_Bead_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591C2A75</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>56</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040256R0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D2293</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>56</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040256R0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D2392</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW04021K50FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D2427</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R71A104KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E10BF</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R71A104KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E1ADB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R71A104KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E9D9B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R71A104KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E9E78</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R71A104KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E9EF1</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A103KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E9FF1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A103KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591EA15E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A103KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591EA1D8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591EBB96</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592015DC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="manf#">GRM188R61A106KE69D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592061E2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5922D14B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PWR</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">KPHD-1608LVCGCK</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="LED_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A94CB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>USR</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">KPHD-1608LVCGCK</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="LED_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A9582</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW0402680RFKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A95FA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW0402680RFKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A96BD</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Prog</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD</footprint>
+      <libsource lib="Tiny-up5k-rescue" part="Conn_02x03_Odd_Even-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3BFD22</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW040210K0FKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB1098</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ICE40UP5K-SG48ITR</value>
+      <footprint>Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm</footprint>
+      <datasheet>http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</datasheet>
+      <fields>
+        <field name="manf#">ICE40UP5K-SG48ITR50</field>
+      </fields>
+      <libsource lib="FPGA_Lattice" part="ICE40UP5K-SG48ITR" description="iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBD03F8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">CRCW0402100RFKED</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591E2BF1</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="manf#">GRM155R61A103KA01D</field>
+      </fields>
+      <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC1217A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5504-3.3YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <fields>
+        <field name="manf#">MIC5504-3.3YM5-TR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC2BABA</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MIC5504-1.2YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
+      <fields>
+        <field name="manf#">MIC5504-1.2YM5-TR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MIC5504-1.2YM5" description="300mA Low-dropout Voltage Regulator, Vout 1.2V, Vin up to 5.5V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC2BCE2</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AT25xxx-MA</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf</datasheet>
+      <fields>
+        <field name="manf#">AT25SF081-MHD-T</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="AT25xxx-MA" description="Microchip SPI Serial EEPROM, DFN8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8F622</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="FPGA_Lattice" part="ICE40UP5K-SG48ITR">
+      <description>iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN</description>
+      <docs>http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra</docs>
+      <footprints>
+        <fp>QFN*7x7mm*P0.5mm*EP5.6x5.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICE40UP5K-SG48ITR</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCIO_2" type="power_in"/>
+        <pin num="2" name="IOB_6a" type="BiDi"/>
+        <pin num="3" name="IOB_9b" type="BiDi"/>
+        <pin num="4" name="IOB_8a" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="IOB_13b" type="BiDi"/>
+        <pin num="7" name="CDONE" type="openCol"/>
+        <pin num="8" name="~CRESET" type="input"/>
+        <pin num="9" name="IOB_16a" type="BiDi"/>
+        <pin num="10" name="IOB_18a" type="BiDi"/>
+        <pin num="11" name="IOB_20a" type="BiDi"/>
+        <pin num="12" name="IOB_22b" type="BiDi"/>
+        <pin num="13" name="IOB_24a" type="BiDi"/>
+        <pin num="14" name="IOB_32a_SPI_SO" type="BiDi"/>
+        <pin num="15" name="IOB_34a_SPI_SCK" type="BiDi"/>
+        <pin num="16" name="IOB_35b_SPI_SS" type="BiDi"/>
+        <pin num="17" name="IOB_33b_SPI_SI" type="BiDi"/>
+        <pin num="18" name="IOB_31b" type="BiDi"/>
+        <pin num="19" name="IOB_29b" type="BiDi"/>
+        <pin num="20" name="IOB_25b_G3" type="BiDi"/>
+        <pin num="21" name="IOB_23b" type="BiDi"/>
+        <pin num="22" name="SPI_VCCIO1" type="power_in"/>
+        <pin num="23" name="IOT_37a" type="BiDi"/>
+        <pin num="24" name="VPP_2V5" type="power_in"/>
+        <pin num="25" name="IOT_36b" type="BiDi"/>
+        <pin num="26" name="IOT_39a" type="BiDi"/>
+        <pin num="27" name="IOT_38b" type="BiDi"/>
+        <pin num="28" name="IOT_41a" type="BiDi"/>
+        <pin num="29" name="VCCPLL" type="power_out"/>
+        <pin num="30" name="VCC" type="passive"/>
+        <pin num="31" name="IOT_42b" type="BiDi"/>
+        <pin num="32" name="IOT_43a" type="BiDi"/>
+        <pin num="33" name="VCCIO_0" type="power_in"/>
+        <pin num="34" name="IOT_44b" type="BiDi"/>
+        <pin num="35" name="IOT_46b_G0" type="BiDi"/>
+        <pin num="36" name="IOT_48b" type="BiDi"/>
+        <pin num="37" name="IOT_45a_G1" type="BiDi"/>
+        <pin num="38" name="IOT_50b" type="BiDi"/>
+        <pin num="39" name="RGB0" type="openCol"/>
+        <pin num="40" name="RGB1" type="openCol"/>
+        <pin num="41" name="RGB2" type="openCol"/>
+        <pin num="42" name="IOT_51a" type="BiDi"/>
+        <pin num="43" name="IOT_49a" type="BiDi"/>
+        <pin num="44" name="IOB_3b_G6" type="BiDi"/>
+        <pin num="45" name="IOB_5b" type="BiDi"/>
+        <pin num="46" name="IOB_0a" type="BiDi"/>
+        <pin num="47" name="IOB_2a" type="BiDi"/>
+        <pin num="48" name="IOB_4a" type="BiDi"/>
+        <pin num="49" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="25LCxxx-MC">
+      <aliases>
+        <alias>BR25xxx-NUX</alias>
+        <alias>AT25xxx-MA</alias>
+        <alias>CAT250xxx-HU4</alias>
+      </aliases>
+      <description>SPI Serial EEPROM, DFN8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf</docs>
+      <footprints>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">25LCxxx-MC</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="MISO" type="3state"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="MOSI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MIC5504-3.3YM5">
+      <aliases>
+        <alias>MIC5504-2.8YM5</alias>
+        <alias>MIC5504-2.5YM5</alias>
+        <alias>MIC5504-1.8YM5</alias>
+        <alias>MIC5504-1.2YM5</alias>
+        <alias>MIC5501-3.0YM5</alias>
+      </aliases>
+      <description>300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5504-3.3YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="Conn_01x14-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="Conn_02x03_Odd_Even-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DSC6001CI2A-016.0000T-TinyFPGA-BX-rescue-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="OUT" type="BiDi"/>
+        <pin num="4" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="Ferrite_Bead_Small-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="LED_Small-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="R-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="R_Small-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="SW_Push-TinyFPGA-BX-rescue">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tiny-up5k-rescue" part="USB_OTG-TinyFPGA-BX-rescue">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG-TinyFPGA-BX-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="FPGA_Lattice">
+      <uri>/usr/share/kicad/library/FPGA_Lattice.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Tiny-up5k-rescue">
+      <uri>/home/why/projects/fpga/TinyFPGA-BX/board/Tiny-up5k-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC_CORE">
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="2" name="HR_04">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="3" name="LED">
+      <node ref="U1" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="HR_05">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad46)">
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="7" name="USB_PU">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="R9" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="9"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U1" pin="49"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="9" name="VCCPLL">
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R10-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="12" name="SDI">
+      <node ref="J5" pin="6"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="13" name="SS">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="14" name="SDO">
+      <node ref="U1" pin="17"/>
+      <node ref="U5" pin="5"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="17" name="CRESET_B">
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="18" name="HR_06">
+      <node ref="U1" pin="43"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="19" name="HR_07">
+      <node ref="U1" pin="42"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="20" name="HR_08">
+      <node ref="U1" pin="41"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="21" name="HR_09">
+      <node ref="U1" pin="40"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="22" name="HR_10">
+      <node ref="J2" pin="10"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="23" name="HR_11">
+      <node ref="U1" pin="38"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="24" name="CLK">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="28" name="HL_14">
+      <node ref="U1" pin="27"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="29" name="Net-(R7-Pad2)">
+      <node ref="U5" pin="7"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="31" name="SPI_VCCIO1">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="22"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="33"/>
+      <node ref="J5" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="32" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="34" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="35" name="USB_N">
+      <node ref="U1" pin="48"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="36" name="USB_P">
+      <node ref="U1" pin="45"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="37" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="38" name="HL_05">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="39" name="HL_10">
+      <node ref="U1" pin="21"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="40" name="HL_11">
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="41" name="HL_12">
+      <node ref="U1" pin="25"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="42" name="HL_13">
+      <node ref="U1" pin="26"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="43" name="HL_02">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="44" name="HL_03">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="45" name="HL_04">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="46" name="HL_06">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="47" name="HL_07">
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="48" name="HL_08">
+      <node ref="U1" pin="19"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="49" name="HL_09">
+      <node ref="U1" pin="20"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="50" name="HR_12">
+      <node ref="J2" pin="12"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="51" name="HR_14">
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="52" name="HR_13">
+      <node ref="U1" pin="36"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="53" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="55" name="SCK">
+      <node ref="U1" pin="15"/>
+      <node ref="U5" pin="6"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="56" name="+5V">
+      <node ref="J2" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
