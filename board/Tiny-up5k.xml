@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/why/projects/fpga/TinyFPGA-BX/board/Tiny-up5k.sch</source>
-    <date>do 18 okt 2018 21:22:02 CEST</date>
-    <tool>Eeschema 5.0.1-33cea8e~66~ubuntu18.04.1</tool>
+    <date>wo 07 nov 2018 21:49:59 CET</date>
+    <tool>Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Tiny-up5k</title>
@@ -67,7 +67,7 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A105KE15D</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -77,7 +77,7 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A105KE15D</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -87,7 +87,7 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A105KE15D</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -97,7 +97,7 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A105KE15D</field>
+        <field name="manf#">CC0402KRX5R6BB105</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -114,7 +114,7 @@
       <tstamp>591C2A75</tstamp>
     </comp>
     <comp ref="R2">
-      <value>56</value>
+      <value>68</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="manf#">CRCW040256R0FKED</field>
@@ -124,7 +124,7 @@
       <tstamp>591D2293</tstamp>
     </comp>
     <comp ref="R3">
-      <value>56</value>
+      <value>68</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
         <field name="manf#">CRCW040256R0FKED</field>
@@ -147,7 +147,7 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R71A104KA01D</field>
+        <field name="manf#">C0402C104J8RACTU</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -157,7 +157,7 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R71A104KA01D</field>
+        <field name="manf#">C0402C104J8RACTU</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -167,7 +167,7 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R71A104KA01D</field>
+        <field name="manf#">C0402C104J8RACTU</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -177,7 +177,7 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R71A104KA01D</field>
+        <field name="manf#">C0402C104J8RACTU</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -187,7 +187,7 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R71A104KA01D</field>
+        <field name="manf#">C0402C104J8RACTU</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -197,7 +197,7 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A103KA01D</field>
+        <field name="manf#">C0402C103K8RACAUTO</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -207,7 +207,7 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A103KA01D</field>
+        <field name="manf#">C0402C103K8RACAUTO</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,7 +217,7 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A103KA01D</field>
+        <field name="manf#">C0402C103K8RACAUTO</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -247,7 +247,7 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="manf#">GRM188R61A106KE69D</field>
+        <field name="manf#">C1608X5R1A106K080AC</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -345,7 +345,7 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="manf#">GRM155R61A103KA01D</field>
+        <field name="manf#">C0402C103K8RACAUTO</field>
       </fields>
       <libsource lib="Tiny-up5k-rescue" part="C_Small-TinyFPGA-BX-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -378,7 +378,7 @@
       <footprint>Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf</datasheet>
       <fields>
-        <field name="manf#">AT25SF081-MHD-T</field>
+        <field name="manf#">N25Q032A11EF640E</field>
       </fields>
       <libsource lib="Memory_EEPROM" part="AT25xxx-MA" description="Microchip SPI Serial EEPROM, DFN8"/>
       <sheetpath names="/" tstamps="/"/>

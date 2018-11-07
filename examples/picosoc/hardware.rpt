@@ -1,0 +1,155 @@
+
+icetime topological timing analysis report
+==========================================
+
+Info: max_span_hack is enabled: estimate is conservative.
+
+Report for critical path:
+-------------------------
+
+        lc40_13_24_1 (LogicCell40) [clk] -> lcout: 0.640 ns
+     0.640 ns net_51189 (soc.cpu.mem_addr[9])
+        odrv_13_24_51189_54045 (Odrv12) I -> O: 0.540 ns
+        t19336 (Span12Mux_h12) I -> O: 0.540 ns
+        t19335 (Span12Mux_h12) I -> O: 0.540 ns
+        t19334 (Span12Mux_v12) I -> O: 0.540 ns
+        t19333 (Sp12to4) I -> O: 0.449 ns
+        t19332 (Span4Mux_v4) I -> O: 0.372 ns
+        t19331 (Span4Mux_h4) I -> O: 0.316 ns
+        t19330 (Span4Mux_v4) I -> O: 0.372 ns
+        t19329 (LocalMux) I -> O: 0.330 ns
+        inmux_20_22_83598_83643 (InMux) I -> O: 0.260 ns
+        lc40_20_22_2 (LogicCell40) in1 -> lcout: 0.400 ns
+     5.297 ns net_79481 ($abc$61454$n3893)
+        t26606 (LocalMux) I -> O: 0.330 ns
+        inmux_20_22_83607_83638 (InMux) I -> O: 0.260 ns
+        t3185 (CascadeMux) I -> O: 0.000 ns
+        lc40_20_22_1 (LogicCell40) in2 -> lcout: 0.379 ns
+     6.265 ns net_79480 ($abc$61454$n3892)
+        t26604 (LocalMux) I -> O: 0.330 ns
+        inmux_20_23_83729_83755 (InMux) I -> O: 0.260 ns
+        t3189 (CascadeMux) I -> O: 0.000 ns
+        lc40_20_23_0 (LogicCell40) in2 -> lcout: 0.379 ns
+     7.233 ns net_79602 ($abc$61454$n3885)
+        odrv_20_23_79602_67503 (Odrv12) I -> O: 0.540 ns
+        t26719 (Span12Mux_h12) I -> O: 0.540 ns
+        t26718 (Sp12to4) I -> O: 0.449 ns
+        t26732 (Span4Mux_v4) I -> O: 0.372 ns
+        t26731 (Span4Mux_h4) I -> O: 0.316 ns
+        t26730 (Span4Mux_v4) I -> O: 0.372 ns
+        t26729 (LocalMux) I -> O: 0.330 ns
+        inmux_17_18_70875_70908 (InMux) I -> O: 0.260 ns
+        lc40_17_18_0 (LogicCell40) in0 -> lcout: 0.449 ns
+    10.859 ns net_66757 (soc.spimemio.valid)
+        odrv_17_18_66757_70476 (Odrv12) I -> O: 0.540 ns
+        t24058 (Sp12to4) I -> O: 0.449 ns
+        t24068 (Span4Mux_h4) I -> O: 0.316 ns
+        t24067 (Span4Mux_v4) I -> O: 0.372 ns
+        t24066 (Span4Mux_h4) I -> O: 0.316 ns
+        t24065 (Span4Mux_h4) I -> O: 0.316 ns
+        t24064 (Span4Mux_h4) I -> O: 0.316 ns
+        t24063 (IoSpan4Mux) I -> O: 0.323 ns
+        t24062 (Span4Mux_h4) I -> O: 0.316 ns
+        t24088 (Span4Mux_h4) I -> O: 0.316 ns
+        t24087 (Span4Mux_v4) I -> O: 0.372 ns
+        t24086 (Span4Mux_v4) I -> O: 0.372 ns
+        t24085 (LocalMux) I -> O: 0.330 ns
+        inmux_27_23_111602_111638 (InMux) I -> O: 0.260 ns
+        lc40_27_23_3 (LogicCell40) in1 -> lcout: 0.400 ns
+    16.168 ns net_107471 ($abc$61454$n4346)
+        t30876 (LocalMux) I -> O: 0.330 ns
+        inmux_27_23_111613_111633 (InMux) I -> O: 0.260 ns
+        t4317 (CascadeMux) I -> O: 0.000 ns
+        lc40_27_23_2 (LogicCell40) in2 -> lcout: 0.379 ns
+    17.136 ns net_107470 (soc.cpu.mem_rdata[30])
+        odrv_27_23_107470_111433 (Odrv12) I -> O: 0.540 ns
+        t30891 (Span12Mux_h12) I -> O: 0.540 ns
+        t30890 (Span12Mux_h12) I -> O: 0.540 ns
+        t30889 (Sp12to4) I -> O: 0.449 ns
+        t30888 (Span4Mux_h4) I -> O: 0.316 ns
+        t30887 (Span4Mux_v4) I -> O: 0.372 ns
+        t30886 (Span4Mux_v4) I -> O: 0.372 ns
+        t30885 (LocalMux) I -> O: 0.330 ns
+        inmux_11_15_46048_46103 (InMux) I -> O: 0.260 ns
+        lc40_11_15_4 (LogicCell40) in1 -> lcout: 0.400 ns
+    21.253 ns net_41931 ($abc$61454$n4342)
+        t16792 (LocalMux) I -> O: 0.330 ns
+        inmux_11_15_46073_46079 (InMux) I -> O: 0.260 ns
+        lc40_11_15_0 (LogicCell40) in1 -> lcout: 0.400 ns
+    22.242 ns net_41927 ($abc$61454$n4341)
+        odrv_11_15_41927_44662 (Odrv12) I -> O: 0.540 ns
+        t16800 (Span12Mux_h12) I -> O: 0.540 ns
+        t16799 (Sp12to4) I -> O: 0.449 ns
+        t16798 (Span4Mux_v4) I -> O: 0.372 ns
+        t16797 (Span4Mux_v4) I -> O: 0.372 ns
+        t16796 (LocalMux) I -> O: 0.330 ns
+        inmux_1_10_5080_5097 (InMux) I -> O: 0.260 ns
+        t75 (CascadeMux) I -> O: 0.000 ns
+        lc40_1_10_1 (LogicCell40) in2 -> lcout: 0.379 ns
+    25.482 ns net_976 ($abc$61454$n4314)
+        odrv_1_10_976_4899 (Odrv4) I -> O: 0.372 ns
+        t4972 (Span4Mux_v4) I -> O: 0.372 ns
+        t4971 (LocalMux) I -> O: 0.330 ns
+        inmux_2_13_9797_9843 (InMux) I -> O: 0.260 ns
+        lc40_2_13_5 (LogicCell40) in1 -> lcout: 0.400 ns
+    27.214 ns net_5413 ($abc$61454$n4312)
+        odrv_2_13_5413_1445 (Odrv12) I -> O: 0.540 ns
+        t5345 (Sp12to4) I -> O: 0.449 ns
+        t5344 (Span4Mux_v4) I -> O: 0.372 ns
+        t5343 (LocalMux) I -> O: 0.330 ns
+        inmux_4_11_17690_17728 (InMux) I -> O: 0.260 ns
+        t466 (CascadeMux) I -> O: 0.000 ns
+        lc40_4_11_1 (LogicCell40) in2 -> lcout: 0.379 ns
+    29.543 ns net_13570 ($abc$61454$n4311)
+        t7117 (LocalMux) I -> O: 0.330 ns
+        inmux_4_10_17565_17617 (InMux) I -> O: 0.260 ns
+        t461 (CascadeMux) I -> O: 0.000 ns
+        lc40_4_10_3 (LogicCell40) in2 -> lcout: 0.379 ns
+    30.510 ns net_13449 ($abc$61454$n4310)
+        t7100 (LocalMux) I -> O: 0.330 ns
+        inmux_4_9_17444_17511 (InMux) I -> O: 0.260 ns
+        lc40_4_9_6 (LogicCell40) in1 -> lcout: 0.400 ns
+    31.499 ns net_13329 ($abc$61454$n4309)
+        odrv_4_9_13329_9387 (Odrv4) I -> O: 0.372 ns
+        t7092 (Span4Mux_v4) I -> O: 0.372 ns
+        t7091 (LocalMux) I -> O: 0.330 ns
+        inmux_6_9_25597_25635 (InMux) I -> O: 0.260 ns
+        lc40_6_9_1 (LogicCell40) in1 -> lcout: 0.400 ns
+    33.232 ns net_21478 ($abc$61454$n6338)
+        odrv_6_9_21478_25693 (Odrv4) I -> O: 0.372 ns
+        t9518 (Span4Mux_h4) I -> O: 0.316 ns
+        t9520 (Span4Mux_v4) I -> O: 0.372 ns
+        t9519 (LocalMux) I -> O: 0.330 ns
+        inmux_6_11_25872_25886 (InMux) I -> O: 0.260 ns
+        lc40_6_11_2 (LogicCell40) in0 -> lcout: 0.449 ns
+    35.329 ns net_21725 ($abc$61454$n1291)
+        odrv_6_11_21725_24668 (Odrv12) I -> O: 0.540 ns
+        t9850 (Sp12to4) I -> O: 0.449 ns
+        t9849 (LocalMux) I -> O: 0.330 ns
+        inmux_6_12_25977_26045 (SRMux) I -> O: 0.463 ns
+    37.110 ns net_26045 ($abc$61454$n1291)
+        lc40_6_12_7 (LogicCell40) sr [setup]: 0.140 ns
+    37.250 ns net_21853 ($abc$61454$n5824)
+
+Resolvable net names on path:
+     0.640 ns ..  4.897 ns soc.cpu.mem_addr[9]
+     5.297 ns ..  5.886 ns $abc$61454$n3893
+     6.265 ns ..  6.854 ns $abc$61454$n3892
+     7.233 ns .. 10.410 ns $abc$61454$n3885
+    10.859 ns .. 15.768 ns soc.spimemio.valid
+    16.168 ns .. 16.757 ns $abc$61454$n4346
+    17.136 ns .. 20.853 ns soc.cpu.mem_rdata[30]
+    21.253 ns .. 21.842 ns $abc$61454$n4342
+    22.242 ns .. 25.103 ns $abc$61454$n4341
+    25.482 ns .. 26.814 ns $abc$61454$n4314
+    27.214 ns .. 29.164 ns $abc$61454$n4312
+    29.543 ns .. 30.132 ns $abc$61454$n4311
+    30.510 ns .. 31.100 ns $abc$61454$n4310
+    31.499 ns .. 32.832 ns $abc$61454$n4309
+    33.232 ns .. 34.880 ns $abc$61454$n6338
+    35.329 ns .. 37.110 ns $abc$61454$n1291
+                  lcout -> $abc$61454$n5824
+
+Total number of logic levels: 16
+Total path delay: 37.25 ns (26.85 MHz)
+
