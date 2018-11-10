@@ -854,7 +854,7 @@ U 1 1 5A3BFD22
 P 11150 850
 F 0 "J5" H 11200 1050 50  0000 C CNN
 F 1 "Prog" H 11200 650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 11150 850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 11150 850 50  0001 C CNN
 F 3 "" H 11150 850 50  0001 C CNN
 	1    11150 850 
 	1    0    0    -1  
@@ -1237,7 +1237,7 @@ F 0 "U5" H 7150 4500 50  0000 C CNN
 F 1 "AT25xxx-MA" H 7750 4500 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 7350 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf" H 7350 4100 50  0001 C CNN
-F 4 " SST25VF016B-50-4C-QAF-T" H 7350 4100 50  0001 C CNN "manf#"
+F 4 "SST25VF016B-50-4C-QAF-T" H 7350 4100 50  0001 C CNN "manf#"
 	1    7350 4100
 	1    0    0    -1  
 $EndComp
