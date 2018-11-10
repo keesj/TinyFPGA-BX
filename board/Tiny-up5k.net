@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/why/projects/fpga/TinyFPGA-BX/board/Tiny-up5k.sch)
-    (date "za 10 nov 2018 09:49:58 CET")
+    (date "za 10 nov 2018 13:10:13 CET")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -301,11 +301,11 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC2BCE2))
     (comp (ref U5)
-      (value AT25xxx-MA)
+      (value SST25VF016B)
       (footprint Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf)
       (fields
-        (field (name manf#) " SST25VF016B-50-4C-QAF-T"))
+        (field (name manf#) SST25VF016B-50-4C-QAF-T))
       (libsource (lib Memory_EEPROM) (part AT25xxx-MA) (description "Microchip SPI Serial EEPROM, DFN8"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BC8F622)))
