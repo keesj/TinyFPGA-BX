@@ -854,7 +854,7 @@ U 1 1 5A3BFD22
 P 11150 850
 F 0 "J5" H 11200 1050 50  0000 C CNN
 F 1 "Prog" H 11200 650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 11150 850 50  0001 C CNN
+F 2 "board:PinHeader_2x03_P2.54mm_Vertical_SMD_NoSolder" H 11150 850 50  0001 C CNN
 F 3 "" H 11150 850 50  0001 C CNN
 	1    11150 850 
 	1    0    0    -1  

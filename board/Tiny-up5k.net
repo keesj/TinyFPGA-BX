@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/why/projects/fpga/TinyFPGA-BX/board/Tiny-up5k.sch)
-    (date "wo 14 nov 2018 11:36:34 CET")
+    (date "wo 14 nov 2018 22:00:23 CET")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -245,7 +245,7 @@
       (tstamp 5A3A96BD))
     (comp (ref J5)
       (value Prog)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD)
+      (footprint board:PinHeader_2x03_P2.54mm_Vertical_SMD_NoSolder)
       (libsource (lib Tiny-up5k-rescue) (part Conn_02x03_Odd_Even-TinyFPGA-BX-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A3BFD22))
