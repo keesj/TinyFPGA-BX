@@ -46,13 +46,13 @@ F 3 "" H 1200 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11800 7900 0    60   Input ~ 0
-SDO
+SDI
 Text GLabel 11800 8000 0    60   Input ~ 0
 SCK
 Text GLabel 11800 6500 0    60   Input ~ 0
 CRESET_B
 Text GLabel 11800 7800 0    60   Input ~ 0
-SDI
+SDO
 Text GLabel 13950 5400 0    60   Input ~ 0
 USB_P
 Text GLabel 13950 5300 0    60   Input ~ 0
