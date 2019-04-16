@@ -1,20 +1,17 @@
 module top(
-  output LED
-);
-
-wire clk;
-
-SB_HFOSC inthosc (
-  .CLKHFPU(1'b1),
-  .CLKHFEN(1'b1),
-  .CLKHF(clk)
+  input clk,
+  output led,
+  input pin1,
+  output pin2
 );
 
     reg [25:0] counter = 0;
 
-    assign LED = counter[23];
+    assign led = counter[16];
 
-    always @(posedge CLK) begin
+    assign pin2 = ~ pin1;
+
+    always @(posedge clk) begin
         counter <= counter +1;
         if (counter > 16000000 -1)
         begin

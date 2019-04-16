@@ -1,1 +1,4 @@
-set_io LED 3
+set_io led 3
+set_io clk 35
+set_io pin1 9
+set_io pin2 10

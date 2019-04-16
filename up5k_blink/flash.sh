@@ -13,9 +13,7 @@ cp top.bin  flashme.bin
 dd if=/dev/zero bs=1 of=flashme.bin seek=$(( 2097152 -1)) count=1
 
 # flash the image
-flashrom \
-    -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=1M \
-    --image top \
-    --layout my.rom \
-    -w flashme.bin  -V
+flashrom -p buspirate_spi:dev=/dev/ttyUSB0,spispeed=1M \
+    --image top  --layout my.rom  -w flashme.bin  -V -N
 
+#     --image top  --layout my.rom  -r contents.bin  -V
