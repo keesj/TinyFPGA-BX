@@ -9,6 +9,7 @@ echo 00020000:001fffff rest
 ) > my.rom
 
 # Create a image of the correct size for flashrom
+#cp hardware.bin  flashme.bin
 cp top.bin  flashme.bin
 dd if=/dev/zero bs=1 of=flashme.bin seek=$(( 2097152 -1)) count=1
 

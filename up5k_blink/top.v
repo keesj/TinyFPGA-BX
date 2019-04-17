@@ -1,22 +1,20 @@
 module top(
-  input clk,
-  output led,
-  input pin1,
-  output pin2
-);
+    output gpio_3,
+    output led_g);
 
-    reg [25:0] counter = 0;
+    wire clk;
+    SB_HFOSC inthosc(.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(clk));
 
-    assign led = counter[16];
+    localparam N = 24;
+    reg [N:0] counter;
 
-    assign pin2 = ~ pin1;
-
-    always @(posedge clk) begin
+    always @(posedge clk)
         counter <= counter +1;
-        if (counter > 16000000 -1)
-        begin
-            counter <= 0;
-        end
-    end
 
+    assign led_g = counter[N];
+    assign gpio_3 = ~ counter[N];
+
+   
 endmodule
+    
+
